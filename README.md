@@ -111,23 +111,7 @@ http://localhost:8080/api/meals/least-ingredients
 
 
 ---
-
-# ✅ Success Response (200 OK)
-
-```json
-{
-  "name": "Meal Name",
-  "ingredients": [
-    "Ingredient1",
-    "Ingredient2"
-  ],
-  "ingredientCount": 2
-}
-❌ Error Response (404 Not Found)
-If no meals are found:
-
-"no meals found"
-⚙️ Technologies Used
+# ⚙️ Technologies Used
 Java 17+
 
 Spring Boot
@@ -140,7 +124,7 @@ Jackson (JSON Mapping)
 
 Postman (Testing)
 
-🧪 Edge Cases Handled
+# 🧪 Edge Cases Handled
 Null API response
 
 Empty meal list
@@ -149,7 +133,7 @@ Blank ingredient fields
 
 Proper HTTP status codes
 
-🚀 How to Run
+# 🚀 How to Run
 Clone the repository
 
 Open in IntelliJ IDEA or any Java IDE
@@ -157,4 +141,22 @@ Open in IntelliJ IDEA or any Java IDE
 Run LeastingredientmealApplication.java
 
 Test the endpoint using Postman
+
+
+# ✅ Success Response (200 OK)
+
+```json
+{
+  "name": "Meal Name",
+  "ingredients": [
+    "Ingredient1",
+    "Ingredient2"
+  ],
+  "ingredientCount": 2
+}```
+
+❌ Error Response (404 Not Found)
+If no meals are found:
+
+"no meals found"
 
